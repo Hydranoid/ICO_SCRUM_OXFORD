@@ -1,0 +1,51 @@
+<<<<<<< HEAD
+* {
+	position: relative;
+	margin-left: 2%;
+	margin-right: 2%;
+	color: white;
+}
+
+header{
+	height: 200px;
+}
+
+body{
+	padding-top: 80px;
+	font-family: Arial, monospace;
+	background: gray;
+}
+
+a.button {
+	-webkit-appearance: button;
+	-moz-appearance: button;
+	appearance: button;
+	text-decoration: none;
+	color: initial;
+}
+
+h1{
+=======
+body{
+
+	padding-top: 80px;
+	font-family: Arial, monospace;
+	background: gray;
+	color: white;
+
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
+
+h1{
+
+>>>>>>> Rutas cambiadas (Test)
+	text-align: center;
+}

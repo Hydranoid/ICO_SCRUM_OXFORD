@@ -1,0 +1,158 @@
+<<<<<<< HEAD
+=======
+
+body{
+	background: black;
+	color:white;
+	padding-top: 80px;
+	font-family: Arial, monospace;
+	background-size: cover;
+	
+
+
+}
+
+
+>>>>>>> Rutas cambiadas (Test)
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
+
+<<<<<<< HEAD
+=======
+h1{
+	text-align: center;
+}
+
+>>>>>>> Rutas cambiadas (Test)
+h2{
+	text-align:center;
+	text-decoration:underline;
+}
+
+.ip{
+margin: 18px;
+
+}
+
+.hh1{
+	text-align:center;
+	margin: 25px;
+}
+
+.scr1 {
+	margin: 25px;
+width: 500px;
+
+}
+
+.scr2{
+	text-align: center;
+}
+
+.Img1{
+
+	width: 250px;
+	text-align: right;
+	position: absolute;
+	top: 220px;
+	bottom:;
+	right:;
+	left: 600px; 
+
+}
+.Img2{
+	padding: 0px;
+	width: 250px;
+	text-align: right;
+	position: relative;
+	top: 00px;
+	bottom:;
+	right:;
+	left: 550px
+}
+
+.cs{
+
+	text-align: center;
+	
+	}
+.dp{
+	position: relative;
+	top: 0px;
+	bottom: 50px;
+	right: ;
+	left: 0px ;
+	background: orange;
+	margin: 10px;
+	width: 400px;
+	height: 200px;
+	display: inline-block;
+}
+
+.ed{
+	background: blue;
+	margin: 10px;
+	width: 400px;
+	position: relative;
+	top: 80px;
+	bottom: px;
+	right: ;
+	left: 0px ;
+	display: inline-block;
+}
+
+.sm{
+	background: red;
+	margin: 10px;
+	position: relative;
+	top: 87px;
+	bottom: px;
+	right: ;
+	left: 0px ;
+	width: 400px;
+	
+	display: inline-block;
+}
+
+.last{
+
+	width: 600px;
+	position: relative;
+
+}
+
+.Img3{
+	position: relative;
+	top: px;
+	bottom: 120px;
+	right: ;
+	left: 750px ;
+	display: inline-block;
+
+}
+.Img4{
+	width: 400px;
+	background: white;
+	position: relative;
+	top: px;
+	bottom: 120px;
+	right: ;
+	left: 670px ;
+	display: inline-block;
+
+
+}
+.Img5{
+	position: relative;
+	top: px;
+	bottom: 120px;
+	right: ;
+	left: 750px ;
+	display: inline-block;
+}
