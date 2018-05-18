@@ -1,18 +1,22 @@
 * {
 	position: relative;
-	margin-left: 2%;
-	margin-right: 2%;
+	margin: 0;
+	padding: 0;
 	color: white;
 }
 
 header{
-	height: 200px;
+	height: 18%;
+	min-height: 160px;
+	width: auto;
+	background: #000000 url(../Pics/scrum_header.png) no-repeat;
+	border-bottom-color:white;
 }
 
 body{
-	padding-top: 80px;
 	font-family: Arial, monospace;
-	background: gray;
+
+	background: grey;
 }
 
 a.button {
@@ -25,4 +29,124 @@ a.button {
 
 h1{
 	text-align: center;
+}
+
+nav {
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+nav input {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+nav label {
+    cursor: pointer;
+    display: block;
+    font: 2em/1 'Oswald', sans-serif;
+    padding: 0.5em;
+}
+
+/*Ícono*/
+#menu-icon,
+#menu-icon:before,
+#menu-icon:after {
+    background: #BDBDBD;
+    border-radius: 0.05em;
+    height: 0.2em;
+    transition: all 0.2s ease-in-out;
+	padding-right: 1%;
+    width: 100%;
+}
+
+#menu-icon {
+    display: inline-block;
+    margin: 3% 3%;
+    max-width: 1em;
+    position: relative;
+}
+
+nav label #menu-icon {
+    float: right;
+}
+
+#menu-icon:before,
+#menu-icon:after {
+    content: '';
+    left: 0;
+    position: absolute;
+}
+
+#menu-icon:before {
+    top: -0.4em;
+}
+
+#menu-icon:after {
+    bottom: -0.4em;
+}
+
+/* Close Icon */
+nav input[type=checkbox]:checked + label #menu-icon {
+    background: transparent;
+}
+
+nav input[type=checkbox]:checked + label #menu-icon:before {
+    top: 0;
+    transform: rotate(-45deg);
+}
+
+nav input[type=checkbox]:checked + label #menu-icon:after {
+    bottom: 0;
+    transform: rotate(45deg);
+}
+
+
+/*** MENU ***/
+/* Overlay */
+nav input:checked ~ #overlay {
+    background: black;
+    bottom: 0;
+    left: 0;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100vw;
+    z-index: -1;
+}
+
+/* List */
+nav ul {
+    font-size: 1.5em;
+    list-style: none;
+    margin: 0;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    padding: 0;
+    text-align: center;
+}
+
+nav input:checked ~ ul {
+    margin: 1em;
+    max-height: inherit;
+    opacity: 1;
+}
+
+nav ul > li {
+    margin: 0.5em 0;
+}
+
+nav ul a {
+    color: #white;
+    text-decoration: none;
+}
+
+nav ul a:hover {
+    font-weight:bold;
 }
