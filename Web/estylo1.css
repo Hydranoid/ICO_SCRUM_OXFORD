@@ -1,81 +1,23 @@
-a.button {
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-    text-decoration: none;
-    color: initial;
+#himg{
+	height 18%;
 }
 
-h1{
-	text-align: center;
-	text-decoration: underline;
+#tablaDes{
+	padding-top:3em;
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
 }
 
-h2{
-	margin: 10px;
+.rs {
+	display: block;
+	max-width:230px;
+	max-height:95px;
+	width: auto;
+	height: auto;
 }
 
-.is{
-	width: 500px;
-	margin: 10px;
-
+.pic{
+	border-radius: 5% 5% 5% 5%;
+	width: 300px;
 }
-
-.Img6{
-	width: 350px;
-	border: 2px solid white;
-	position: absolute;
-	top: 250px;
-	bottom: ;
-	right:;
-	left: 600px;
-}
-
-.Img7{
-	width: 350px;
-	position: relative;
-	top: ;
-	bottom: ;
-	right:;
-	left: 450px;
-}
-
-.Img8{
-	width: 350px;
-	position: relative;
-	top: ;
-	bottom: ;
-	right:;
-	left: 475px;
-}
-
-.Img9{
-
-	width: 440px;
-	background: white;
-	position: relative;
-	top: ;
-	bottom: ;
-	right:;
-	left: 410px;
-}
-
-.Img10{
-
-	width: 400px;
-	position: relative;
-	top: ;
-	bottom: ;
-	right:;
-	left: 480px;
-}
-
-.Img11{
-
-	width: 400px;
-	position: relative;
-	top: ;
-	bottom: ;
-	right:;
-	left: 450px;
-
