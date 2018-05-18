@@ -1,4 +1,10 @@
-<<<<<<< HEAD
+
+body{
+	padding-top: 80px;
+font-family: Arial, monospace;
+background:black; 
+color:white;
+}
 #himg{
 	height 18%;
 }
@@ -19,25 +25,12 @@ a.button {
 
 .pic{
 	height: 75%;
-	witdh: 75%;
+	width:  75%;
 	border-radius: 5% 5% 5% 5%;
 	width: 300px;
-=======
 
-h1{
 
-	text-align: center;
-	text-decoration: underline;
-}
 
-body{
-
-padding-top: 80px;
-font-family: Arial, monospace;
-background:black; 
-color:white;
-
-}
 
 a.button {
     -webkit-appearance: button;
@@ -78,5 +71,5 @@ img {
 	height: ;
 	display: inline-block;
 
->>>>>>> Rutas cambiadas (Test)
+
 }

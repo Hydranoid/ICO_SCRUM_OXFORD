@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 body{
 	background: black;
 	padding-top: 80px;
@@ -8,51 +7,40 @@ body{
 	color: white;
 }
 
->>>>>>> Rutas cambiadas (Test)
+
 a.button {
     -webkit-appearance: button;
     -moz-appearance: button;
     appearance: button;
-<<<<<<< HEAD
-=======
 
->>>>>>> Rutas cambiadas (Test)
+
+
     text-decoration: none;
     color: initial;
 }
 
 h1{
-<<<<<<< HEAD
-=======
 
->>>>>>> Rutas cambiadas (Test)
 	text-align: center;
 	text-decoration: underline;
 }
 
 h2{
-<<<<<<< HEAD
-=======
 
->>>>>>> Rutas cambiadas (Test)
+
+
 	margin: 10px;
 }
 
 .is{
-<<<<<<< HEAD
-=======
 
->>>>>>> Rutas cambiadas (Test)
 	width: 500px;
 	margin: 10px;
 
 }
 
 .Img6{
-<<<<<<< HEAD
-=======
-	
->>>>>>> Rutas cambiadas (Test)
+
 	width: 350px;
 	border: 2px solid white;
 	position: absolute;
@@ -63,13 +51,12 @@ h2{
 }
 
 .Img7{
-<<<<<<< HEAD
+
 	width: 350px;
-=======
 
 	width: 350px;
 	
->>>>>>> Rutas cambiadas (Test)
+
 	position: relative;
 	top: ;
 	bottom: ;
@@ -78,13 +65,12 @@ h2{
 }
 
 .Img8{
-<<<<<<< HEAD
-	width: 350px;
-=======
 
 	width: 350px;
-	
->>>>>>> Rutas cambiadas (Test)
+
+
+	width: 350px;
+
 	position: relative;
 	top: ;
 	bottom: ;
@@ -106,10 +92,9 @@ h2{
 .Img10{
 
 	width: 400px;
-<<<<<<< HEAD
-=======
-	
->>>>>>> Rutas cambiadas (Test)
+ 
+
+
 	position: relative;
 	top: ;
 	bottom: ;
@@ -120,10 +105,10 @@ h2{
 .Img11{
 
 	width: 400px;
-<<<<<<< HEAD
-=======
+ 
+
 	
->>>>>>> Rutas cambiadas (Test)
+ 
 	position: relative;
 	top: ;
 	bottom: ;
